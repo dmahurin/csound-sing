@@ -390,11 +390,11 @@ nxt:
 ;          printks "bend event %f %f %f\n", 0.1, kch, kd2, kd1
         endif
       else
-        fluidControl gifld, kst, kch - 1, kd1, kd2
+        fluidControl gifld, kst, kch, kd1, kd2
       endif
     else
       tablew kd1, kch, gichanprog
-      fluidProgramSelect_k gifld, kch - 1, gisf2, 0, kd1
+      fluidProgramSelect_k gifld, kch, gisf2, 0, kd1
     endif
     kgoto nxt
   endif
