@@ -90,6 +90,7 @@ gihscale = 0.2
 gihoffwait = 1
 
 gihformantcount = 4
+gihvoicepg0 = 0
 gihvoicepg1 = 52
 gihvoicepg2 = 53
 gihvoicepg3 = 54
@@ -345,7 +346,7 @@ nxt:
     if (kst != 192) then
       kpg table kch, gichanprog
       kcount table kch, gichancount
-      if ( kpg == gihvoicepg1 || kpg == gihvoicepg2 || kpg == gihvoicepg3 ) then
+      if ( kpg == gihvoicepg0 || kpg == gihvoicepg1 || kpg == gihvoicepg2 || kpg == gihvoicepg3 ) then
         ; use local csound instrument
         if (kst == 144 && kd2 != 0) then ; note on
           kcount = kcount + 1
