@@ -15,21 +15,21 @@ synthesize singing vowel sounds, acting as an instrument in midi songs.
 Csound source used to translate synth voice and choir voice instruments
 into \'fof\' based instrument, while routing other instruments through
 the fluid soft synthesizer engine:
-[midi\_fluid\_voice.csd](midi_fluid_voice.csd)
+[midi\_fluid\_voice.csd](midi_fluid_voice.csd?raw=true)
 
 Star Trek midi converted to contain a synth voice instrument:
-[startrek\_voice.mid](startrek_voice.mid)
+[startrek\_voice.mid](startrek_voice.mid?raw=true)
 
-Result, converted to mp3: [startrek\_voice.mp3](startrek_voice.mp3)
+Result, converted to mp3: [startrek\_voice.mp3](startrek_voice.mp3?raw=true)
 
 Created with:
 
     csound midi_fluid_voice.csd -F startrek_voice.mid
 
 Nirvana \"Lithium\" midi converted to contain a synth voice instrument:
-[lithium\_voice.mid](lithium_voice.mid)
+[lithium\_voice.mid](lithium_voice.mid?raw=true)
 
-Result, converted to mp3: [lithium\_voice.mp3](lithium_voice.mp3)
+Result, converted to mp3: [lithium\_voice.mp3](lithium_voice.mp3?raw=true)
 
 Note that here, the synth voice instrument is interpreted as a \"wah\"
 voice, where the start of group of notes starts with a \"w\" ( a short
@@ -45,10 +45,10 @@ Prerequisits in Ubuntu:
 
 Here some other sample midi files generated with GK-2A guitar pickup
 that demonstrate a bending voice: (to be played with the above csd)\
-[donplay5.mid](donplay5.mid)\
-[donplay7.mid](donplay7.mid)\
-[donplay9.mid](donplay9.mid)\
-[donplay11.mid](donplay11.mid)\
+[donplay5.mid](donplay5.mid?raw=true)\
+[donplay7.mid](donplay7.mid?raw=true)\
+[donplay9.mid](donplay9.mid?raw=true)\
+[donplay11.mid](donplay11.mid?raw=true)
 
 Many thanks to the authors of Csound, and the examples (fofx6.csd,
 fluidcomplex.csd) which the above csd builds upon. Thanks also the the
